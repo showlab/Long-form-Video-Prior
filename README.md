@@ -20,3 +20,4 @@ An overview of the proposed Storyboard20K. It includes around 20K storyboards so
 <img src="sample.jpg" width="1000">
 Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our dataset involves three main annotations, i.e., (i) character-centric (whole body keypoints and bounding boxes), (ii) film-set-centric (bounding boxes), and (iii) summative (texts) annotations. It also includes condensed or shot-by-shot descriptions.
 
+**The paper and dataset will be released soon.**
