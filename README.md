@@ -14,9 +14,9 @@
 
 ## Storyboard20K dataset with fine-grained annotations
 <img src="dataset_overview.png" width="1000">
-An overview of the proposed Storyboard20K. It includes $\sim$20K storyboards sourced from MovieNet~\cite{movienet} and LSMDC~\cite{lsmdc} with $\sim$150K shots (key frames) in total. For each storyboard, there are around 13.8 and 4.7 annotated bounding boxes for characters and film sets, respectively. The average duration of these movie storyboards is around 33.9 seconds, which ensures long-time coverage and large view variation.
+An overview of the proposed Storyboard20K. It includes around 20K storyboards sourced from MovieNet and LSMDC with around 150K shots (key frames) in total. For each storyboard, there are around 13.8 and 4.7 annotated bounding boxes for characters and film sets, respectively. The average duration of these movie storyboards is around 33.9 seconds, which ensures long-time coverage and large view variation.
 
 ### Data samples
 <img src="sample.jpg" width="1000">
-Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our dataset involves three main annotations, \emph{i.e.,} (i) character-centric (whole body keypoints and bounding boxes), (ii) film-set-centric (bounding boxes), and (iii) summative (texts) annotations. It also includes condensed (as illustrated in Fig.~\ref{fig:teaser}) or shot-by-shot descriptions.
+Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our dataset involves three main annotations, i.e., (i) character-centric (whole body keypoints and bounding boxes), (ii) film-set-centric (bounding boxes), and (iii) summative (texts) annotations. It also includes condensed or shot-by-shot descriptions.
 
