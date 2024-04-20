@@ -10,10 +10,10 @@
 
 </div>
 
-<img src="docs/teaser.gif" width="1000">
+<img src="teaser.gif" width="1000">
 
 ### Data samples
-<img src="docs/sample.jpg" width="1000">
+<img src="sample.jpg" width="1000">
 
 Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our dataset involves three main annotations, \emph{i.e.,} (i) character-centric (whole body keypoints and bounding boxes), (ii) film-set-centric (bounding boxes), and (iii) summative (texts) annotations. It also includes condensed (as illustrated in Fig.~\ref{fig:teaser}) or shot-by-shot descriptions.
 
