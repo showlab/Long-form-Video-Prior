@@ -2,7 +2,8 @@
 <h1>Long-form Video Prior 🎥 </h1>
 <h3>Learning Long-form Video Prior via Generative Pre-Training</h3>
 
-[Jinheng Xie](https://sierkinhane.github.io/)<sup>1</sup>&nbsp; Jiajun Feng<sup>1&#42;</sup>&nbsp; Zhaoxu Tian<sup>1&#42;</sup>&nbsp; Kevin Qinghong Lin<sup>1</sup>&nbsp; Yawen Huang<sup>2</sup> Xi Xia<sup>1</sup>&nbsp; Xu Zuo<sup>1</sup>&nbsp; Jiaqi Yang<sup>1</sup>&nbsp; Yefeng Zheng<sup>2</sup>&nbsp; [Mike Zheng Shou](https://scholar.google.com/citations?hl=zh-CN&user=h1-3lSoAAAAJ&view_op=list_works&sortby=pubdate)<sup>1</sup> 
+[Jinheng Xie](https://sierkinhane.github.io/)<sup>1</sup>&nbsp; Jiajun Feng<sup>1&#42;</sup>&nbsp; Zhaoxu Tian<sup>1&#42;</sup>&nbsp; Kevin Qinghong Lin<sup>1</sup>&nbsp; Yawen Huang<sup>2</sup> Xi Xia<sup>1</sup>&nbsp; Nanxu Gong<sup>1</sup>&nbsp; Xu Zuo<sup>1</sup>&nbsp; Jiaqi Yang<sup>1</sup>&nbsp; Yefeng Zheng<sup>2</sup>&nbsp; [Mike Zheng Shou](https://scholar.google.com/citations?hl=zh-CN&user=h1-3lSoAAAAJ&view_op=list_works&sortby=pubdate)<sup>1</sup> 
+
 
 <sup>1</sup> National University of Singapore&nbsp; <sup>2</sup> Jarvis Research Center, Tencent Youtu Lab&nbsp;
 
