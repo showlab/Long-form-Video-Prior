@@ -26,8 +26,9 @@ Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our data
 ### Download 
 **The annotation can be downloaded from [here]() and is structured as follows:**
 ```
-# each storyboard in train.json has the following elements
-{
+# each storyboard in train.json and test.json has the following elements
+{   
+    'flag': 'train' ('val', 'testA', or 'testB'),
     'global_id': ,
     'movie_id': ,
     'key_frames': ,
@@ -41,18 +42,23 @@ Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our data
     'main characters': ,
     '#characters': ,
     'synopses': ,
-    'bboxes_person': , # a list of N (#frames) sub-lists and each sub-list contains M bounding boxes
+    
+     # a list of N (#frames of the current storyboard) sub-lists and each sub-list contains M bounding boxes formatted in [x1, y1, x2, y2], 
+     # in which each coordinate is scaled into [0,1] by dividing the long side of the frame (max(H,W)).
+    'bboxes_person': ,
     'bboxes_object': ,
     'keypoints': ,
 }
 
-# there is an additional key 'flag' in each storyboard of test.json
-{
-    ...
-    flag : testA (or testB),
-    ...
-}
 ```
+**Visualize storyboards**
+```
+python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --vis-save-dir outputs/debug_train --instruct --save-flag instruct --vis-storyboard --max-frames 11
+```
+The visualized storyboards will be stored at `outputs/debug_train`.
+
+**Source Movie Frames**
+
 Please make sure to request access to the [MPII Movie Description dataset (MPII-MD)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset/request-access-to-mpii-movie-description-dataset/) first and cc the approval email to sierkinhane@gmail.com. Once you have received approval, I will provide you with the link to download the pre-processed movie frames of Storyboard20K.
 
 [//]: # (## Citation)
