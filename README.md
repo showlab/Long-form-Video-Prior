@@ -51,7 +51,6 @@ Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our data
     'bboxes_object': ,
     'keypoints': ,
 }
-
 ```
 **Visualize storyboards**
 ```
