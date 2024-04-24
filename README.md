@@ -55,9 +55,9 @@ Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our data
 ```
 **Visualize storyboards**
 ```
-python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --vis-save-dir outputs/debug_train --instruct --save-flag instruct --vis-storyboard --max-frames 11
+python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --vis-save-dir outputs/debug --instruct --save-flag instruct --vis-storyboard --max-frames 11
 ```
-The visualized storyboards will be stored at `outputs/debug_train`.
+The visualized storyboards will be stored at `outputs/debug`.
 
 **Source Movie Frames**
 
