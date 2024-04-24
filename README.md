@@ -13,7 +13,7 @@
 <img src="docs/teaser.gif" width="1000">
 
 ## Updates
-* The paper and dataset will be released soon.
+* [2024-04-24] The dataset is released.
 
 
 
