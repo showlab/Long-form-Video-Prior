@@ -392,7 +392,6 @@ def to_sequences(data, args=None):
 
             # format keypoint representation
             kpts_with_boxes = format_kpt_rep(item['keypoints'], item['bboxes_person'], args)
-            # filter repeated bboxes for person, add filtering those bboxes with large overlapping
             bboxes_all_cats = item['bboxes_object']
             # format bbox representation
             bboxes_all_cats = format_box_rep(bboxes_all_cats, args)
