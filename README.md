@@ -26,7 +26,7 @@ An overview of the proposed Storyboard20K. It includes around 20K storyboards so
 Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our dataset involves three main annotations, i.e., (i) character-centric (whole body keypoints and bounding boxes), (ii) film-set-centric (bounding boxes), and (iii) summative (texts) annotations. It also includes condensed or shot-by-shot descriptions.
 
 ### Download 
-**The annotation can be downloaded from [here]() and is structured as follows:**
+**The annotation can be downloaded from [here](https://drive.google.com/drive/folders/1b_nluhbIpRitsY_h7_T_SOB8GuO2o4Dq?usp=sharing) and is structured as follows:**
 ```
 # each storyboard in train.json and test.json has the following elements
 {   
