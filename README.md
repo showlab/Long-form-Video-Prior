@@ -10,10 +10,12 @@
 
 </div>
 
+<img src="docs/teaser.gif" width="1000">
+
 ## Updates
 * The paper and dataset will be released soon.
 
-<img src="docs/teaser.gif" width="1000">
+
 
 ## Storyboard20K dataset with fine-grained annotations
 <img src="docs/dataset_overview.png" width="1000">
