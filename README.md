@@ -6,14 +6,14 @@
 
 <sup>1</sup> National University of Singapore&nbsp; <sup>2</sup> Jarvis Research Center, Tencent Youtu Lab&nbsp;
 
-[![arXiv](https://img.shields.io/badge/arXiv-<TBD>-<COLOR>.svg)]()
+[![arXiv](https://img.shields.io/badge/arXiv-<2404.15909>-<COLOR>.svg)](https://arxiv.org/abs/2404.15909)
 
 </div>
 
 <img src="docs/teaser.gif" width="1000">
 
 ## Updates
-* [2024-04-24] The dataset is released.
+* [2024-04-24] The paper and dataset are available.
 
 
 
