@@ -62,10 +62,13 @@ The visualized storyboards will be stored at `outputs/debug`.
 
 Please make sure to request access to the [MPII Movie Description dataset (MPII-MD)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset/request-access-to-mpii-movie-description-dataset/) first and cc the approval email to sierkinhane@gmail.com. Once you have received approval, I will provide you with the link to download the pre-processed movie frames of Storyboard20K.
 
-[//]: # (## Citation)
-
-[//]: # (If you find our work inspiring or use our dataset or codebase in your research, please consider giving a star ⭐ and a citation.)
-
-[//]: # (```)
-
-[//]: # (```)
+## Citation
+If you find our work inspiring or use our dataset or codebase in your research, please consider giving a star ⭐ and a citation.
+```
+@article{xie2024learning,
+  title={Learning Long-form Video Prior via Generative Pre-Training},
+  author={Xie, Jinheng and Feng, Jiajun and Tian, Zhaoxu and Lin, Kevin Qinghong and Huang, Yawen and Xia, Xi and Gong, Nanxu and Zuo, Xu and Yang, Jiaqi and Zheng, Yefeng and others},
+  journal={arXiv preprint arXiv:2404.15909},
+  year={2024}
+}
+```
