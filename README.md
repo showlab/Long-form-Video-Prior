@@ -13,8 +13,7 @@
 <img src="docs/teaser.gif" width="1000">
 
 ## Updates
-* [2024-04-24] The paper and dataset are available.
-
+* [2024-04-24] The dataset is released.
 
 
 ## Storyboard20K dataset with fine-grained annotations
@@ -54,14 +53,26 @@ Annotated samples (part of a storyboard) of the proposed Storyboard20K. Our data
 ```
 **Visualize storyboards**
 ```
-python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --vis-save-dir outputs/debug --instruct --save-flag instruct --vis-storyboard --max-frames 11
+python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --vis-save-dir outputs/debug --instruct --save-flag instruct --vis-storyboard --max-frames 11 --noise
+
+or
+
+python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --vis-save-dir outputs/debug --instruct --save-flag instruct --vis-storyboard --max-frames 11 --noise --data-root path/to/storyboard20k/frames/[train, test]
+
 ```
-The visualized storyboards will be stored at `outputs/debug`.
+The visualized storyboards will be stored at `outputs/debug`. `--noise` means no random noises are added to each sample for augmentation. You can specify the root to source frames by `--data-root` to visualize storyboards with source frames. By specify `--vis-stroyboard`, no text sequences will be saved. If you want to save the processed text sequences for training and test, you should run `python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --instruct --save-flag instruct` without specifying `--vis-storyboard`.
 
 **Source Movie Frames**
 
-Please make sure to request access to the [MPII Movie Description dataset (MPII-MD)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset/request-access-to-mpii-movie-description-dataset/) first and cc the approval email to sierkinhane@gmail.com. Once you have received approval, I will provide you with the link to download the pre-processed movie frames of Storyboard20K.
-
+Please make sure to request access to the [MPII Movie Description dataset (MPII-MD)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset/request-access-to-mpii-movie-description-dataset/) first and cc the approval email to sierkinhane@gmail.com. Once you have received approval, I will provide you with the link to download the pre-processed movie frames of Storyboard20K. 
+```
+├── storyboard20k/ 
+|   ├── frames
+|   |   ├—— train
+|   |   |   ├—— tt0167260
+|   |   |   ├—— ...
+|   └── ——— test
+```
 ## Citation
 If you find our work inspiring or use our dataset or codebase in your research, please consider giving a star ⭐ and a citation.
 ```
