@@ -58,7 +58,6 @@ python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --
 or
 
 python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --vis-save-dir outputs/debug --instruct --save-flag instruct --vis-storyboard --max-frames 11 --noise --data-root path/to/storyboard20k/frames/[train, test]
-
 ```
 The visualized storyboards will be stored at `outputs/debug`. `--noise` means no random noises are added to each sample for augmentation. You can specify the root to source frames by `--data-root` to visualize storyboards with source frames. By specify `--vis-stroyboard`, no text sequences will be saved. If you want to save the processed text sequences for training and test, you should run `python data_preprocess.py --input-path path/to/json/file --num-instructions 1 --instruct --save-flag instruct` without specifying `--vis-storyboard`.
 
