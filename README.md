@@ -14,6 +14,7 @@
 <img src="docs/teaser.gif" width="1000">
 
 ## Updates
+* [2026-08-23] This work is accepted to TPAMI 2026.
 * [2024-04-24] The dataset is released.
 
 
