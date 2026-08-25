@@ -65,7 +65,7 @@ The visualized storyboards will be stored at `outputs/debug`. `--noise` means no
 
 **Source Movie Frames**
 
-Please make sure to request access to the [MPII Movie Description dataset (MPII-MD)]([https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset/request-access-to-mpii-movie-description-dataset/](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset)) first and cc the approval email to sierkinhane@gmail.com. Once you have received approval, I will provide you with the link to download the pre-processed movie frames of Storyboard20K. 
+Please make sure to request access to the [MPII Movie Description dataset (MPII-MD)]([https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset/request-access-to-mpii-movie-description-dataset/](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset) first and cc the approval email to sierkinhane@gmail.com. Once you have received approval, I will provide you with the link to download the pre-processed movie frames of Storyboard20K. 
 ```
 ├── storyboard20k/ 
 |   ├── frames
